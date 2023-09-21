@@ -108,7 +108,7 @@ export default function Shoporders() {
                     <td>
                       <Button
                         variant={order.isDelivered ? 'success' : 'warning'}
-                        className='rounded-0 fw-bold'
+                        className='rounded-0 fw-bold w-100'
                         onClick={() => handleOrderUpdate(order._id)}
                         disabled={order.isDelivered === true}
                       >

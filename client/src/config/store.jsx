@@ -24,8 +24,8 @@ export const StateContext = ({ children }) => {
   const [paymentMethod, setPaymentMethod] = useState(paymentData)
   const [shippingDetails, setShippingDetails] = useState(shippingData)
 
-  console.log('cu', currentUser)
-  console.log('cart', cartItems)
+ 
+ 
 
   //check token expiration
   useEffect(() => {
